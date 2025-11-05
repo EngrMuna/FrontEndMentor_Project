@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 15pt;
+    background: hsl(30, 38%, 92%);
+    padding: 22% 3.8%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.imgContainer .productImage {
+    width: 100%;
+}
+
+.descriptionContainer {
+    padding: 25px;
+}
+
+.btn {
+    width: 100%;
+    background: hsl(158, 36%, 37%);
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: 700;
+    color: hsl(30, 38%, 92%);
+    text-align: center;
+}
+
+.perfume {
+    color: hsl(228, 12%, 48%);
+    margin: 0 0 25px 0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 4px;
+}
+
+.header h2 {
+    font-family: Fraunces;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+.description p {
+    color: gray;
+    font-size: 14px;
+    font-family: Montserrat;
+    margin-bottom: 25px;
+}
+
+.price .first {
+    font-weight: 700;
+    font-family: Fraunces;
+    color: green;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+.price small {
+    color: gray;
+    font-size: small;
+    vertical-align: super;
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.price {
+    margin-bottom: 30px;
+}
+
+.attribution {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+@media (min-width: 768px) {
+    body {
+        height: 100vh;
+        padding: 11%;
+    }
+    
+    .container {
+        flex-direction: row;
+        width: 72%;
+        /*height: auto;*/
+        margin: 0 auto;
+        transform: translate(0, 150%);
+    }
+    
+    .imgContainer {
+        background: url('/images/image-product-desktop.jpg') no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .productImage {
+        visibility: hidden;
+    }
+    
+   .imgContainer, .descriptionContainer {
+        width: 50%;
+        height: auto;
+    }
+    
+    .btnContainer .btn:hover {
+        background: hsl(158, 42%, 28%);
+    }
+    
+    .btnContainer .btn:active {
+        background: hsl(158, 42%, 18%);
+        cursor: pointer;
+    }
+}
