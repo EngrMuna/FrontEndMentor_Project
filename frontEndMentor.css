@@ -83,7 +83,7 @@ body {
     font-size: 12px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 375px) {
     body {
         height: 100vh;
         padding: 11%;
