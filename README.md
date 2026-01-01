@@ -21,8 +21,8 @@ Users should be able to:
 ![Mobile Design](/images/Mobile_version.jpg)
 
 ### Links
-- **Solution URL:** [Add your solution URL here]()
-- **Live Site URL:** [Add your live demo URL here]()
+- **Solution URL:** https://engrmuna.github.io/FrontEndMentor_Project/
+- **Live Site URL:** https://engrmuna.github.io/FrontEndMentor_Project/
 
 ---
 
